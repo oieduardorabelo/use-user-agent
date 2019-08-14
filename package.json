@@ -1,13 +1,13 @@
 {
   "name": "@oieduardorabelo/use-user-agent",
-  "description": "React Hooks to detect browsers user agent using ua-parser-js as main dependency.",
+  "description": "React Hooks to detect browsers user-agent using ua-parser-js as main dependency.",
   "license": "MIT",
   "author": "Eduardo Rabelo <oieduardorabelo@gmail.com> (https://github.com/oieduardorabelo)",
   "repository": {
     "url": "https://github.com/oieduardorabelo/use-user-agent",
     "type": "git"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "module": "dist/use-user-agent.esm.js",
   "files": [

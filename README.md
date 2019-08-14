@@ -1,6 +1,6 @@
 # @oieduardorabelo/use-user-agent
 
-React Hooks to detect browsers user agent using [`ua-parser-js`](https://github.com/faisalman/ua-parser-js) as main dependency.
+React Hooks to detect browsers user-agent using [`ua-parser-js`](https://github.com/faisalman/ua-parser-js) as main dependency.
 
 To install it:
 
