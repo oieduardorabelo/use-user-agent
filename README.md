@@ -12,7 +12,7 @@ yarn add @oieduardorabelo/use-user-agent
 
 An online demo is available at CodeSandbox:
 
-- **Live demo:** https://codesandbox.io/s/live-demo-use-navigator-online-1xy56
+- **Live demo:** https://codesandbox.io/s/live-demo-use-user-agent-d7iyg
 
 If you've any issues, **open an issue with a CodeSandbox link** with your issue
 
