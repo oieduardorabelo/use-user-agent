@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import * as ReactDOMTestUtils from 'react-dom/test-utils';
 
-import useUserAgent from '../src';
+import {useUserAgent} from '../src';
 
 const TestHook = ({ callback }: { callback: any }) => {
   callback();

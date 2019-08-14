@@ -10,20 +10,22 @@ function useUserAgent(uastring = window.navigator.userAgent) {
     let didRun = true;
 
     try {
+      const uaParser = new UAParser.UAParser();
+      uaParser.setUA(uastring);
+      const payload = {
+        os: uaParser.getOS(),
+        browser: uaParser.getBrowser(),
+        cpu: uaParser.getCPU(),
+        device: uaParser.getDevice(),
+        engine: uaParser.getEngine(),
+      };
       if (didRun) {
-        const uaParser = new UAParser.UAParser();
-        uaParser.setUA(uastring);
-        const payload = {
-          os: uaParser.getOS(),
-          browser: uaParser.getBrowser(),
-          cpu: uaParser.getCPU(),
-          device: uaParser.getDevice(),
-          engine: uaParser.getEngine()
-        };
         setState(payload);
       }
     } catch (err) {
-      setState(null);
+      if (didRun) {
+        setState(null);
+      }
     }
 
     return () => {
@@ -34,4 +36,4 @@ function useUserAgent(uastring = window.navigator.userAgent) {
   return state;
 }
 
-export default useUserAgent;
+export {useUserAgent};

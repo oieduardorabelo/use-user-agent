@@ -21,7 +21,7 @@ If you've any issues, **open an issue with a CodeSandbox link** with your issue
 In your app, you can add:
 
 ```javascript
-import useUserAgent from '@oieduardorabelo/use-user-agent';
+import { useUserAgent } from '@oieduardorabelo/use-user-agent';
 
 function App() {
   let details = useUserAgent(uastring)
@@ -49,7 +49,7 @@ For full documentation, refer to [ua-parser-js repository](https://github.com/fa
 Using default value from `useUserAgent()`:
 
 ```javascript
-import useUserAgent from '@oieduardorabelo/use-user-agent';
+import { useUserAgent } from '@oieduardorabelo/use-user-agent';
 
 function App() {
   let details = useUserAgent();
@@ -75,7 +75,7 @@ function App() {
 Passing a custom user-agent string:
 
 ```javascript
-import useUserAgent from '@oieduardorabelo/use-user-agent';
+import { useUserAgent } from '@oieduardorabelo/use-user-agent';
 
 function App() {
   let uastring = "Mozilla/5.0 (PlayBook; U; RIM Tablet OS 1.0.0; en-US) AppleWebKit/534.11 (KHTML, like Gecko) Version/7.1.0.7 Safari/534.11";

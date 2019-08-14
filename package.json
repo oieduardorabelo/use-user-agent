@@ -7,7 +7,7 @@
     "url": "https://github.com/oieduardorabelo/use-user-agent",
     "type": "git"
   },
-  "version": "1.0.1",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "module": "dist/use-user-agent.esm.js",
   "files": [
@@ -45,12 +45,12 @@
   "keywords": [
     "browser",
     "hooks",
-    "user-agent",
-    "ua",
-    "ua-parser-js",
     "parser",
     "react",
-    "react-hooks"
+    "react-hooks",
+    "ua",
+    "ua-parser-js",
+    "user-agent"
   ],
   "publishConfig": {
     "access": "public"

@@ -1,7 +1,7 @@
 import 'react-app-polyfill/ie11';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import useUserAgent from '../src';
+import {useUserAgent} from '../src';
 
 const App = () => {
   let details = useUserAgent();
