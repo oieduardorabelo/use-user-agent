@@ -52,7 +52,7 @@ Using default value from `useUserAgent()`:
 import { useUserAgent } from '@oieduardorabelo/use-user-agent';
 
 function App() {
-  let details = useUserAgent();
+  let details = useUserAgent(); // default is `window.navigator.userAgent`
 
   if (!details) {
     return null;
