@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as UAParser from 'ua-parser-js';
 
-type IUseUserAgentReturn = Omit<IUAParser.IResult, 'ua'>;
+type IUseUserAgentReturn = Omit<UAParser.IResult, 'ua'>;
 
 function useUserAgent(uastring = window.navigator.userAgent) {
   let [state, setState] = React.useState<IUseUserAgentReturn | null>(null);
@@ -36,4 +36,4 @@ function useUserAgent(uastring = window.navigator.userAgent) {
   return state;
 }
 
-export {useUserAgent};
+export { useUserAgent };
