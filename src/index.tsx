@@ -4,7 +4,7 @@ import * as UAParser from 'ua-parser-js';
 type IUseUserAgentReturn = Omit<UAParser.IResult, 'ua'>;
 
 function useUserAgent(uastring = window.navigator.userAgent) {
-  let [state, setState] = React.useState<IUseUserAgentReturn | null>(null);
+  const [state, setState] = React.useState<IUseUserAgentReturn | null>(null);
 
   React.useEffect(() => {
     let didRun = true;
