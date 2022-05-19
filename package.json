@@ -24,8 +24,8 @@
     "ua-parser-js": "1.0.2"
   },
   "peerDependencies": {
-    "react": ">=16.8 - 17",
-    "react-dom": ">=16.8 - 17"
+    "react": "16.8 - 17",
+    "react-dom": "16.8 - 17"
   },
   "devDependencies": {
     "@types/jest": "27.4.1",
